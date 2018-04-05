@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2015
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VibratoPlugin - VST", "VibratoPlugin_VST.vcxproj", "{1497DA0C-552F-810C-74A5-1FD8D0C6BF3F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7295B7A1-179B-EC84-28DF-D08335CDE8A5} = {7295B7A1-179B-EC84-28DF-D08335CDE8A5}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VibratoPlugin - Shared Code", "VibratoPlugin_SharedCode.vcxproj", "{7295B7A1-179B-EC84-28DF-D08335CDE8A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1497DA0C-552F-810C-74A5-1FD8D0C6BF3F}.Debug|x64.ActiveCfg = Debug|x64
+		{1497DA0C-552F-810C-74A5-1FD8D0C6BF3F}.Debug|x64.Build.0 = Debug|x64
+		{1497DA0C-552F-810C-74A5-1FD8D0C6BF3F}.Release|x64.ActiveCfg = Release|x64
+		{1497DA0C-552F-810C-74A5-1FD8D0C6BF3F}.Release|x64.Build.0 = Release|x64
+		{7295B7A1-179B-EC84-28DF-D08335CDE8A5}.Debug|x64.ActiveCfg = Debug|x64
+		{7295B7A1-179B-EC84-28DF-D08335CDE8A5}.Debug|x64.Build.0 = Debug|x64
+		{7295B7A1-179B-EC84-28DF-D08335CDE8A5}.Release|x64.ActiveCfg = Release|x64
+		{7295B7A1-179B-EC84-28DF-D08335CDE8A5}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

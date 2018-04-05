@@ -1,0 +1,1938 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		13B03B8DD6D24DB48C5D664A /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6A59E34DDB1348148A28D56E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				FF2AA33DF566424B8B0489AA /* CMake Rules */,
+			);
+			dependencies = (
+				24CFE9B20F3E47AE90474346 /* PBXTargetDependency */,
+				E49D3DD151804F2B880C0A66 /* PBXTargetDependency */,
+				433141F049804023A60A5B88 /* PBXTargetDependency */,
+				CAEE301E668942A980FAABA5 /* PBXTargetDependency */,
+				97C17C850E764FFDA7837043 /* PBXTargetDependency */,
+				B01F83D5AB5A4B51B02B9389 /* PBXTargetDependency */,
+				C39047BFC1EC4FF1A68677EB /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		335F5B145E9B46A986512641 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 18413F61D8D04A29A4C03F56 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				5F4D572E38914AA8A8C3C213 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0549FFD791204209BF5A813E /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Vibrato.h */ = {isa = PBXBuildFile; fileRef = 735BB3B4159A4BD480AB5920 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Vibrato.h */; };
+		08D83B3A148F4D6AB772164B /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/AudioFileIO/AudioFile.h */ = {isa = PBXBuildFile; fileRef = E34270933F4E4081A2D27DDC /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/AudioFileIO/AudioFile.h */; };
+		08FAF921238E479FA2E7214D /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/Vibrato/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 69AEF993F4A74968A81017E3 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/Vibrato/CMakeLists.txt */; };
+		0A21D01C378A4411993E7218 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Synthesis.h */ = {isa = PBXBuildFile; fileRef = AB728D1989DB472ABB47004B /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Synthesis.h */; };
+		0C4E584D3B814CA9BF949BE2 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Fft.h */ = {isa = PBXBuildFile; fileRef = 936C9D4461274308850899D7 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Fft.h */; };
+		0F63284CF7FE43E19626B96E /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/CombFilter/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C744321FC8D84BB5B9327962 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/CombFilter/CMakeLists.txt */; };
+		12768632E08E4C19A7F35E8E /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/AudioFileIf.h */ = {isa = PBXBuildFile; fileRef = 98DD281F7D03461C96F8C0A1 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/AudioFileIf.h */; };
+		128093668A1C403FBF115B95 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/AudioFileIf.h */ = {isa = PBXBuildFile; fileRef = 57131FDFC16E4C8F954F59D8 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/AudioFileIf.h */; };
+		1363C794A6514A619C1D7043 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Lfo.h */ = {isa = PBXBuildFile; fileRef = 873C6CF1557B42508128EFD9 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Lfo.h */; };
+		13BE7CCB1D524565814EC8A1 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/CombFilter.h */ = {isa = PBXBuildFile; fileRef = A9794F68370A4C1CBF3E554C /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/CombFilter.h */; };
+		14A356C1F2D44D7CABFBC50E /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/CombFilter/CombFilterIf.cpp */ = {isa = PBXBuildFile; fileRef = DADEFEBAC9184D719C2E3200 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/CombFilter/CombFilterIf.cpp */; };
+		20BB14B4CA974F58AB1AC14B /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Synthesis.h */ = {isa = PBXBuildFile; fileRef = 2275A795145845AA92A9779D /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Synthesis.h */; };
+		218D66E0BE454B9DB2066F43 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/sndlib-strings.h */ = {isa = PBXBuildFile; fileRef = CCBDD063A2774C1992FAECF4 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/sndlib-strings.h */; };
+		21DAE73B2D904F13A32964C6 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/RingBuffer.h */ = {isa = PBXBuildFile; fileRef = F0EBEA4B3D034D5DB7401752 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/RingBuffer.h */; };
+		240465BB416B44548F0E6FDD /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdParty/Fft/rvfft.cpp */ = {isa = PBXBuildFile; fileRef = 0A698F03B94943F1B8B96138 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdParty/Fft/rvfft.cpp */; };
+		26C2BA5712554D43A7012747 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/CombFilter/CombFilter.cpp */ = {isa = PBXBuildFile; fileRef = 309DF20C36AD41558CA17840 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/CombFilter/CombFilter.cpp */; };
+		3109123A4A4A4472ADDB69EB /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Fft.h */ = {isa = PBXBuildFile; fileRef = B34E3330A6E54F47A86771EA /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Fft.h */; };
+		34013737D2D34961B747F9B4 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Vibrato.h */ = {isa = PBXBuildFile; fileRef = 984B3CE9C62043AC873E8078 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Vibrato.h */; };
+		35287F6ED4AB44F889BB0E3D /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Lfo.h */ = {isa = PBXBuildFile; fileRef = 31A111A0D97A4F1F97D9C467 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Lfo.h */; };
+		37FB07D2BD6E4F2D9066278D /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Fft.h */ = {isa = PBXBuildFile; fileRef = A46C21D3616A4727BB766F0D /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Fft.h */; };
+		38B6DB0E2944471DB451F38B /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdParty/Fft/rvfft.h */ = {isa = PBXBuildFile; fileRef = F857477F556B41EE8427D8FB /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdParty/Fft/rvfft.h */; };
+		39D1385A25D342A4A3E0DF1C /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/AudioFileIf.h */ = {isa = PBXBuildFile; fileRef = EFC82263ACD349B2A62C4D01 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/AudioFileIf.h */; };
+		3A3314546723466C93BDE0C9 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Vector.h */ = {isa = PBXBuildFile; fileRef = 0129922BF79544D79CDB2DB2 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Vector.h */; };
+		3AC85B7092964B35B48731D4 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/AudioFileIO/AudioFile.cpp */ = {isa = PBXBuildFile; fileRef = 6EBD8BFBFE204AA3B181D094 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/AudioFileIO/AudioFile.cpp */; };
+		3FFFE11A91E04870A1D2BAD6 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/CombFilterIf.h */ = {isa = PBXBuildFile; fileRef = 10953670241C44D1BE057B81 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/CombFilterIf.h */; };
+		46FE241B21F74F25BD16B32A /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/clm-strings.h */ = {isa = PBXBuildFile; fileRef = DCC52C89867A41DD9A4877D5 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/clm-strings.h */; };
+		48C31B9CE5D243A1A659B4E8 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/audio.c */ = {isa = PBXBuildFile; fileRef = D237B04C4B60409CB0DE2AB1 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/audio.c */; };
+		499171127071425FB97F3790 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/MUSI6106Exec/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 4423BA3255CD499EAD2DE78C /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/MUSI6106Exec/CMakeLists.txt */; };
+		4A0A4AFBE421483AAB9BFA49 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/AudioFileIO/AudioFileIf.cpp */ = {isa = PBXBuildFile; fileRef = 721E4A43A8774668BF3D0034 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/AudioFileIO/AudioFileIf.cpp */; };
+		4F192A03BF144E66A00F64B2 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/Fft/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BA26FFD3C04449A7B22629F1 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/Fft/CMakeLists.txt */; };
+		4FD70BB5E534404892ED9541 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/io.c */ = {isa = PBXBuildFile; fileRef = 7EC1D40275B14CEF8884CC61 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/io.c */; };
+		51ED2A369B5F48198F87C3E8 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Vibrato.h */ = {isa = PBXBuildFile; fileRef = 4EA40A002C224F778A98B9D5 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Vibrato.h */; };
+		54B3F222051B4B7E806E5820 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Lfo.h */ = {isa = PBXBuildFile; fileRef = 54593E93791E4193BD55EBF3 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Lfo.h */; };
+		5573095602EE446BA892202D /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Util.h */ = {isa = PBXBuildFile; fileRef = BB1837AF156E4B5AB7F16535 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Util.h */; };
+		5BED639CF28E4328A91511C2 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 6354A0113CBB4894A66C2A4C /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/CMakeLists.txt */; };
+		5CFDA6D9833449E1978F3A85 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Util.h */ = {isa = PBXBuildFile; fileRef = 3AC2AA125E544796AA03E61B /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Util.h */; };
+		621F4ADD177441FEAB8E5418 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/unix-config.h */ = {isa = PBXBuildFile; fileRef = FF9DFA5D2CE242F89ECD96F9 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/unix-config.h */; };
+		6ADDEBD659D3495D929B777D /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/_sndlib.h */ = {isa = PBXBuildFile; fileRef = 40A244B4712E4FEF826A872B /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/_sndlib.h */; };
+		76659C95DD9E441B8551D573 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/clm.h */ = {isa = PBXBuildFile; fileRef = 8F38F2A35A4347A49C39627C /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/clm.h */; };
+		76FB8D3F2AEC41FFA570C33C /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/RingBuffer.h */ = {isa = PBXBuildFile; fileRef = FDB9C8134B714F73AFF19322 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/RingBuffer.h */; };
+		7809648B314F443EA2FC0A11 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/vct.c */ = {isa = PBXBuildFile; fileRef = D30DD138A13643CC8DCFC5B8 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/vct.c */; };
+		88A4655E7F8645FC8CFCE252 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/AudioFileIf.h */ = {isa = PBXBuildFile; fileRef = CF21C1C834BB47F18AAE3522 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/AudioFileIf.h */; };
+		890C11B8AF24493BBC47CF77 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Vector.h */ = {isa = PBXBuildFile; fileRef = 684412E9F0EB4EE5B874ED8F /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Vector.h */; };
+		89359C816F474CB885729FE6 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/CombFilter.h */ = {isa = PBXBuildFile; fileRef = 37E8A9138C4C42A68A6C178F /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/CombFilter.h */; };
+		8B4C11C6D9F54EA48CA1DEAD /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/CombFilter.h */ = {isa = PBXBuildFile; fileRef = 7C20D3B14CE04DC69676EF39 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/CombFilter.h */; };
+		8B914D9AC79C49BF9EF71918 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/MUSI6106Exec/MUSI6106Exec.cpp */ = {isa = PBXBuildFile; fileRef = 21E6AE2D233F4DD5AD575D8E /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/MUSI6106Exec/MUSI6106Exec.cpp */; };
+		8C0D081B79BB40EC908FE5BF /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/AudioFileIO/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8DE27927310B4049A396D2AE /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/AudioFileIO/CMakeLists.txt */; };
+		8C41EA1E646A4D1AB3EB0718 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Util.h */ = {isa = PBXBuildFile; fileRef = BC2F10D52B5C474BA375DA48 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Util.h */; };
+		8E1A0DFFB67D476F88AEC515 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/xen.h */ = {isa = PBXBuildFile; fileRef = CD899DEB626C4CFFB5BFE030 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/xen.h */; };
+		8E3DD72872CA41B68553D99F /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Lfo.h */ = {isa = PBXBuildFile; fileRef = C7BBA89F92994CEE88EA5568 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Lfo.h */; };
+		921A6471D8794BA19634960E /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Vector.h */ = {isa = PBXBuildFile; fileRef = C8AF86D52178400EAAF92144 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Vector.h */; };
+		93B4E8BC6AFA42F3B7D342C6 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/CombFilter.h */ = {isa = PBXBuildFile; fileRef = B4B343C078DA41CF82A36875 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/CombFilter.h */; };
+		943E6026BB8149C38AE5BEC0 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Synthesis.h */ = {isa = PBXBuildFile; fileRef = 59AF322BE38D40A6B1AE4216 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Synthesis.h */; };
+		985DE8FE52E04712869E630D /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/sndlib.h */ = {isa = PBXBuildFile; fileRef = 4DEF5BADA25745E5A231B901 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/sndlib.h */; };
+		9927DEB1901349DB977FC555 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/RingBuffer.h */ = {isa = PBXBuildFile; fileRef = AA7B5AF760024A2E96051BB3 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/RingBuffer.h */; };
+		9C6FDF8034F94354B990379E /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Vector.h */ = {isa = PBXBuildFile; fileRef = 91486AB5B1E240A79536BBCC /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Vector.h */; };
+		9D79FAD6767046459456B82E /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/CombFilterIf.h */ = {isa = PBXBuildFile; fileRef = AD23CAF32CF446F6BE98D4B3 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/CombFilterIf.h */; };
+		A056DEA42B2A4EAF80C7D941 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Fft.h */ = {isa = PBXBuildFile; fileRef = 68EC7F57413C4133A56B6675 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Fft.h */; };
+		A29F627CB46C4F98916D03A1 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/mus-config.h */ = {isa = PBXBuildFile; fileRef = 49B2064F67BE4C72BE8B754A /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/mus-config.h */; };
+		A376ED738DF142499CA072D4 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/CombFilterIf.h */ = {isa = PBXBuildFile; fileRef = 42C52460655B4CE3BEC69E75 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/CombFilterIf.h */; };
+		A895654BD7E04246BA014EE0 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/clm2xen.c */ = {isa = PBXBuildFile; fileRef = 7AB214ED8C0244E9B3460173 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/clm2xen.c */; };
+		AB078112034F4C5BB274D2C2 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/sound.c */ = {isa = PBXBuildFile; fileRef = 4F7DBA8110A041E7866A04E9 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/sound.c */; };
+		B1196810B7EF49F08AC7AD68 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/headers.c */ = {isa = PBXBuildFile; fileRef = E979D1F010094864922CEAF7 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/headers.c */; };
+		B4ECCEFAFD994106B5EEA1D9 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/sndlib2xen.h */ = {isa = PBXBuildFile; fileRef = F2326FCD2C124FC78C5B20CC /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/sndlib2xen.h */; };
+		BB0275EDDA904D42A3E44FB8 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/RingBuffer.h */ = {isa = PBXBuildFile; fileRef = 5FD9FC667EB74F7BA0052D60 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/RingBuffer.h */; };
+		BE9DA40314ED453AAF24E8E2 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/clm.c */ = {isa = PBXBuildFile; fileRef = A9AD817232BC41B99EE9567D /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/clm.c */; };
+		C0723E12BE5B4071A210BF99 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Synthesis.h */ = {isa = PBXBuildFile; fileRef = A65F6B7C1DB84EEC910D8A53 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Synthesis.h */; };
+		C194557742DC477C97472529 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/Vibrato/Vibrato.cpp */ = {isa = PBXBuildFile; fileRef = 24B7ADD9A512485F9BC2E78F /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/Vibrato/Vibrato.cpp */; };
+		C5660E55878D4A90AD13F0A8 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/CombFilterIf.h */ = {isa = PBXBuildFile; fileRef = 814AEE2AFF8A47278FA8022D /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/CombFilterIf.h */; };
+		CBF59119C0874A56B83DF312 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/s7.c */ = {isa = PBXBuildFile; fileRef = 29C44A392EA44EE487BBAFCE /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/s7.c */; };
+		CBFE5D36A49947609B4D42DA /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Util.h */ = {isa = PBXBuildFile; fileRef = 0C9034CDD53B46B99ED20BA1 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Util.h */; };
+		D2E97A381BDC49E9AFE0DBBD /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/clm2xen.h */ = {isa = PBXBuildFile; fileRef = C8EE9EB3074343D8B05BF7EF /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/clm2xen.h */; };
+		DCF60E689373445E94A675B0 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/s7.h */ = {isa = PBXBuildFile; fileRef = EEC7D484D6CC4B5BADBCFD56 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/s7.h */; };
+		E3E7F940E60E4AD1BB8C2D4A /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Vibrato.h */ = {isa = PBXBuildFile; fileRef = 47091EE7D22E4165A3132C60 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Vibrato.h */; };
+		E96CBEB284ED4E0F9778F755 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/sndlib2xen.c */ = {isa = PBXBuildFile; fileRef = 36AF4A0C76B44B8B8FB2778F /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/sndlib2xen.c */; };
+		E9B0CAEEBAD24261AC623D02 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/Fft/Fft.cpp */ = {isa = PBXBuildFile; fileRef = 8B90EE2EC3CD4B619C88D0FA /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/Fft/Fft.cpp */; };
+		EA0E45DF647840398446EC61 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/vct.h */ = {isa = PBXBuildFile; fileRef = F808FC749AE24E5D9D3EF34B /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/vct.h */; };
+		F99A95B6E9034C16AD51E797 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/xen.c */ = {isa = PBXBuildFile; fileRef = 929B660C8A2F4059AA618006 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/xen.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		2CAE92E8F03348BE8DA59028 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		2CF5C218F34A412DA3EB3565 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		491A543F770B4A8289E9E213 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		FAA4AC6FFC97439BA1BDC60F /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0C7368A786FC42C8AF3E3817 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2415C4EA22A43BB99853143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC8A94A93E78433BA8CE191E;
+			remoteInfo = sndlib;
+		};
+		1F72C9B161764A099C4FC792 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2415C4EA22A43BB99853143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 796DB92797EB4E0E961EDBFE;
+			remoteInfo = Vibrato;
+		};
+		223374CA7A2F4504B700FFB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2415C4EA22A43BB99853143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFD25A844A114561BE3CD5B1;
+			remoteInfo = Fft;
+		};
+		324E01408ABC41E4A06CFD15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2415C4EA22A43BB99853143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A178DC732474852A72C77F5;
+			remoteInfo = CombFilter;
+		};
+		4D006A9AB0F54E7EB939F24B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2415C4EA22A43BB99853143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E494252D0A74123BC9B7034;
+			remoteInfo = AudioFileIO;
+		};
+		763FF7BF8B0246568E1DC299 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2415C4EA22A43BB99853143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 514E1B4B53A14C4AB4CB7B9D;
+			remoteInfo = MUSI6106Exec;
+		};
+		929620166D4345198A678946 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2415C4EA22A43BB99853143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A178DC732474852A72C77F5;
+			remoteInfo = CombFilter;
+		};
+		92C4600FF6E14CA08E45D2A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2415C4EA22A43BB99853143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 335F5B145E9B46A986512641;
+			remoteInfo = ZERO_CHECK;
+		};
+		AB7F2532E00A423EA0927E92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2415C4EA22A43BB99853143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 335F5B145E9B46A986512641;
+			remoteInfo = ZERO_CHECK;
+		};
+		AC40361092F8484C847DDF3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2415C4EA22A43BB99853143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 335F5B145E9B46A986512641;
+			remoteInfo = ZERO_CHECK;
+		};
+		AD5BE08AC6664FDFA6A56685 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2415C4EA22A43BB99853143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC8A94A93E78433BA8CE191E;
+			remoteInfo = sndlib;
+		};
+		B80430110E6640EA81DE0EFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2415C4EA22A43BB99853143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC8A94A93E78433BA8CE191E;
+			remoteInfo = sndlib;
+		};
+		C52F71FC25A24EB4BE7F2FED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2415C4EA22A43BB99853143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 335F5B145E9B46A986512641;
+			remoteInfo = ZERO_CHECK;
+		};
+		C840E4DD3F464739AA8A9578 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2415C4EA22A43BB99853143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFD25A844A114561BE3CD5B1;
+			remoteInfo = Fft;
+		};
+		C911017B9A9847678FBF691B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2415C4EA22A43BB99853143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 335F5B145E9B46A986512641;
+			remoteInfo = ZERO_CHECK;
+		};
+		D6376057EE6C48C7A66A17A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2415C4EA22A43BB99853143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 335F5B145E9B46A986512641;
+			remoteInfo = ZERO_CHECK;
+		};
+		DC73690D933F4902AEDABCFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2415C4EA22A43BB99853143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E494252D0A74123BC9B7034;
+			remoteInfo = AudioFileIO;
+		};
+		DFDFDD1C34F54728892D6404 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2415C4EA22A43BB99853143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 796DB92797EB4E0E961EDBFE;
+			remoteInfo = Vibrato;
+		};
+		FDACAED751A44A6A85B42B22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2415C4EA22A43BB99853143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 335F5B145E9B46A986512641;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0129922BF79544D79CDB2DB2 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Vector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Vector.h; path = src/inc/Vector.h; sourceTree = SOURCE_ROOT; };
+		0A698F03B94943F1B8B96138 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdParty/Fft/rvfft.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rvfft.cpp; path = 3rdParty/Fft/rvfft.cpp; sourceTree = SOURCE_ROOT; };
+		0C9034CDD53B46B99ED20BA1 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Util.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Util.h; path = src/inc/Util.h; sourceTree = SOURCE_ROOT; };
+		0F6ACB3AAFFF4438B535319B /* MUSI6106Exec */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = MUSI6106Exec; sourceTree = BUILT_PRODUCTS_DIR; };
+		10953670241C44D1BE057B81 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/CombFilterIf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CombFilterIf.h; path = src/inc/CombFilterIf.h; sourceTree = SOURCE_ROOT; };
+		21E6AE2D233F4DD5AD575D8E /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/MUSI6106Exec/MUSI6106Exec.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MUSI6106Exec.cpp; path = src/MUSI6106Exec/MUSI6106Exec.cpp; sourceTree = SOURCE_ROOT; };
+		2275A795145845AA92A9779D /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Synthesis.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Synthesis.h; path = src/inc/Synthesis.h; sourceTree = SOURCE_ROOT; };
+		24B7ADD9A512485F9BC2E78F /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/Vibrato/Vibrato.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Vibrato.cpp; path = src/Vibrato/Vibrato.cpp; sourceTree = SOURCE_ROOT; };
+		29C44A392EA44EE487BBAFCE /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/s7.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = s7.c; path = 3rdparty/sndlib/s7.c; sourceTree = SOURCE_ROOT; };
+		2F9C3EBDA1AA4332A1D77327 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		309DF20C36AD41558CA17840 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/CombFilter/CombFilter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CombFilter.cpp; path = src/CombFilter/CombFilter.cpp; sourceTree = SOURCE_ROOT; };
+		31A111A0D97A4F1F97D9C467 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Lfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Lfo.h; path = src/inc/Lfo.h; sourceTree = SOURCE_ROOT; };
+		36AF4A0C76B44B8B8FB2778F /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/sndlib2xen.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sndlib2xen.c; path = 3rdparty/sndlib/sndlib2xen.c; sourceTree = SOURCE_ROOT; };
+		37E8A9138C4C42A68A6C178F /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/CombFilter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CombFilter.h; path = src/inc/CombFilter.h; sourceTree = SOURCE_ROOT; };
+		3AC2AA125E544796AA03E61B /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Util.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Util.h; path = src/inc/Util.h; sourceTree = SOURCE_ROOT; };
+		40A244B4712E4FEF826A872B /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/_sndlib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = _sndlib.h; path = 3rdparty/sndlib/_sndlib.h; sourceTree = SOURCE_ROOT; };
+		42C52460655B4CE3BEC69E75 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/CombFilterIf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CombFilterIf.h; path = src/inc/CombFilterIf.h; sourceTree = SOURCE_ROOT; };
+		4423BA3255CD499EAD2DE78C /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/MUSI6106Exec/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/MUSI6106Exec/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		47091EE7D22E4165A3132C60 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Vibrato.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Vibrato.h; path = src/inc/Vibrato.h; sourceTree = SOURCE_ROOT; };
+		49B2064F67BE4C72BE8B754A /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/mus-config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "mus-config.h"; path = "3rdparty/sndlib/mus-config.h"; sourceTree = SOURCE_ROOT; };
+		4C0E4EF375B94212B3E87336 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4DEF5BADA25745E5A231B901 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/sndlib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sndlib.h; path = 3rdparty/sndlib/sndlib.h; sourceTree = SOURCE_ROOT; };
+		4EA40A002C224F778A98B9D5 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Vibrato.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Vibrato.h; path = src/inc/Vibrato.h; sourceTree = SOURCE_ROOT; };
+		4F7DBA8110A041E7866A04E9 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/sound.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sound.c; path = 3rdparty/sndlib/sound.c; sourceTree = SOURCE_ROOT; };
+		54593E93791E4193BD55EBF3 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Lfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Lfo.h; path = src/inc/Lfo.h; sourceTree = SOURCE_ROOT; };
+		57131FDFC16E4C8F954F59D8 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/AudioFileIf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AudioFileIf.h; path = src/inc/AudioFileIf.h; sourceTree = SOURCE_ROOT; };
+		59AF322BE38D40A6B1AE4216 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Synthesis.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Synthesis.h; path = src/inc/Synthesis.h; sourceTree = SOURCE_ROOT; };
+		5D0A4F555C724FFAAE6BEC55 /* CombFilter */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCombFilter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD9FC667EB74F7BA0052D60 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/RingBuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RingBuffer.h; path = src/inc/RingBuffer.h; sourceTree = SOURCE_ROOT; };
+		6354A0113CBB4894A66C2A4C /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = 3rdparty/sndlib/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		684412E9F0EB4EE5B874ED8F /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Vector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Vector.h; path = src/inc/Vector.h; sourceTree = SOURCE_ROOT; };
+		68EC7F57413C4133A56B6675 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Fft.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Fft.h; path = src/inc/Fft.h; sourceTree = SOURCE_ROOT; };
+		69AEF993F4A74968A81017E3 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/Vibrato/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/Vibrato/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6EBD8BFBFE204AA3B181D094 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/AudioFileIO/AudioFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AudioFile.cpp; path = src/AudioFileIO/AudioFile.cpp; sourceTree = SOURCE_ROOT; };
+		721E4A43A8774668BF3D0034 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/AudioFileIO/AudioFileIf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AudioFileIf.cpp; path = src/AudioFileIO/AudioFileIf.cpp; sourceTree = SOURCE_ROOT; };
+		735BB3B4159A4BD480AB5920 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Vibrato.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Vibrato.h; path = src/inc/Vibrato.h; sourceTree = SOURCE_ROOT; };
+		7AB214ED8C0244E9B3460173 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/clm2xen.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = clm2xen.c; path = 3rdparty/sndlib/clm2xen.c; sourceTree = SOURCE_ROOT; };
+		7C20D3B14CE04DC69676EF39 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/CombFilter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CombFilter.h; path = src/inc/CombFilter.h; sourceTree = SOURCE_ROOT; };
+		7EC1D40275B14CEF8884CC61 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/io.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = io.c; path = 3rdparty/sndlib/io.c; sourceTree = SOURCE_ROOT; };
+		814AEE2AFF8A47278FA8022D /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/CombFilterIf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CombFilterIf.h; path = src/inc/CombFilterIf.h; sourceTree = SOURCE_ROOT; };
+		873C6CF1557B42508128EFD9 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Lfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Lfo.h; path = src/inc/Lfo.h; sourceTree = SOURCE_ROOT; };
+		8B90EE2EC3CD4B619C88D0FA /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/Fft/Fft.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Fft.cpp; path = src/Fft/Fft.cpp; sourceTree = SOURCE_ROOT; };
+		8DE27927310B4049A396D2AE /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/AudioFileIO/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/AudioFileIO/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8F38F2A35A4347A49C39627C /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/clm.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = clm.h; path = 3rdparty/sndlib/clm.h; sourceTree = SOURCE_ROOT; };
+		8FAC14A326974D8683A2CBDD /* sndlib */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libsndlib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		91486AB5B1E240A79536BBCC /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Vector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Vector.h; path = src/inc/Vector.h; sourceTree = SOURCE_ROOT; };
+		929B660C8A2F4059AA618006 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/xen.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xen.c; path = 3rdparty/sndlib/xen.c; sourceTree = SOURCE_ROOT; };
+		936C9D4461274308850899D7 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Fft.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Fft.h; path = src/inc/Fft.h; sourceTree = SOURCE_ROOT; };
+		984B3CE9C62043AC873E8078 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Vibrato.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Vibrato.h; path = src/inc/Vibrato.h; sourceTree = SOURCE_ROOT; };
+		98DD281F7D03461C96F8C0A1 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/AudioFileIf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AudioFileIf.h; path = src/inc/AudioFileIf.h; sourceTree = SOURCE_ROOT; };
+		A46C21D3616A4727BB766F0D /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Fft.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Fft.h; path = src/inc/Fft.h; sourceTree = SOURCE_ROOT; };
+		A65F6B7C1DB84EEC910D8A53 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Synthesis.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Synthesis.h; path = src/inc/Synthesis.h; sourceTree = SOURCE_ROOT; };
+		A9794F68370A4C1CBF3E554C /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/CombFilter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CombFilter.h; path = src/inc/CombFilter.h; sourceTree = SOURCE_ROOT; };
+		A9AD817232BC41B99EE9567D /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/clm.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = clm.c; path = 3rdparty/sndlib/clm.c; sourceTree = SOURCE_ROOT; };
+		AA7B5AF760024A2E96051BB3 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/RingBuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RingBuffer.h; path = src/inc/RingBuffer.h; sourceTree = SOURCE_ROOT; };
+		AB728D1989DB472ABB47004B /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Synthesis.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Synthesis.h; path = src/inc/Synthesis.h; sourceTree = SOURCE_ROOT; };
+		AD23CAF32CF446F6BE98D4B3 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/CombFilterIf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CombFilterIf.h; path = src/inc/CombFilterIf.h; sourceTree = SOURCE_ROOT; };
+		B34E3330A6E54F47A86771EA /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Fft.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Fft.h; path = src/inc/Fft.h; sourceTree = SOURCE_ROOT; };
+		B4B343C078DA41CF82A36875 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/CombFilter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CombFilter.h; path = src/inc/CombFilter.h; sourceTree = SOURCE_ROOT; };
+		BA26FFD3C04449A7B22629F1 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/Fft/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/Fft/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BB1837AF156E4B5AB7F16535 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Util.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Util.h; path = src/inc/Util.h; sourceTree = SOURCE_ROOT; };
+		BC2F10D52B5C474BA375DA48 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Util.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Util.h; path = src/inc/Util.h; sourceTree = SOURCE_ROOT; };
+		C744321FC8D84BB5B9327962 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/CombFilter/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CombFilter/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C7BBA89F92994CEE88EA5568 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Lfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Lfo.h; path = src/inc/Lfo.h; sourceTree = SOURCE_ROOT; };
+		C8AF86D52178400EAAF92144 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Vector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Vector.h; path = src/inc/Vector.h; sourceTree = SOURCE_ROOT; };
+		C8EE9EB3074343D8B05BF7EF /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/clm2xen.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = clm2xen.h; path = 3rdparty/sndlib/clm2xen.h; sourceTree = SOURCE_ROOT; };
+		CCBDD063A2774C1992FAECF4 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/sndlib-strings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "sndlib-strings.h"; path = "3rdparty/sndlib/sndlib-strings.h"; sourceTree = SOURCE_ROOT; };
+		CD899DEB626C4CFFB5BFE030 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/xen.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xen.h; path = 3rdparty/sndlib/xen.h; sourceTree = SOURCE_ROOT; };
+		CF21C1C834BB47F18AAE3522 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/AudioFileIf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AudioFileIf.h; path = src/inc/AudioFileIf.h; sourceTree = SOURCE_ROOT; };
+		D1D7E140ED5047A9BABA98C3 /* AudioFileIO */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAudioFileIO.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D237B04C4B60409CB0DE2AB1 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/audio.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = audio.c; path = 3rdparty/sndlib/audio.c; sourceTree = SOURCE_ROOT; };
+		D30DD138A13643CC8DCFC5B8 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/vct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vct.c; path = 3rdparty/sndlib/vct.c; sourceTree = SOURCE_ROOT; };
+		DADEFEBAC9184D719C2E3200 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/CombFilter/CombFilterIf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CombFilterIf.cpp; path = src/CombFilter/CombFilterIf.cpp; sourceTree = SOURCE_ROOT; };
+		DCC52C89867A41DD9A4877D5 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/clm-strings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "clm-strings.h"; path = "3rdparty/sndlib/clm-strings.h"; sourceTree = SOURCE_ROOT; };
+		E34270933F4E4081A2D27DDC /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/AudioFileIO/AudioFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AudioFile.h; path = src/AudioFileIO/AudioFile.h; sourceTree = SOURCE_ROOT; };
+		E979D1F010094864922CEAF7 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/headers.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = headers.c; path = 3rdparty/sndlib/headers.c; sourceTree = SOURCE_ROOT; };
+		EEC7D484D6CC4B5BADBCFD56 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/s7.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = s7.h; path = 3rdparty/sndlib/s7.h; sourceTree = SOURCE_ROOT; };
+		EFC82263ACD349B2A62C4D01 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/AudioFileIf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AudioFileIf.h; path = src/inc/AudioFileIf.h; sourceTree = SOURCE_ROOT; };
+		F0EBEA4B3D034D5DB7401752 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/RingBuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RingBuffer.h; path = src/inc/RingBuffer.h; sourceTree = SOURCE_ROOT; };
+		F2326FCD2C124FC78C5B20CC /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/sndlib2xen.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sndlib2xen.h; path = 3rdparty/sndlib/sndlib2xen.h; sourceTree = SOURCE_ROOT; };
+		F2610AA993AB416CAC932A4E /* Vibrato */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libVibrato.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F808FC749AE24E5D9D3EF34B /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/vct.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vct.h; path = 3rdparty/sndlib/vct.h; sourceTree = SOURCE_ROOT; };
+		F857477F556B41EE8427D8FB /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdParty/Fft/rvfft.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rvfft.h; path = 3rdParty/Fft/rvfft.h; sourceTree = SOURCE_ROOT; };
+		FC9C88221F554204B2B837F5 /* Fft */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFft.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB9C8134B714F73AFF19322 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/RingBuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RingBuffer.h; path = src/inc/RingBuffer.h; sourceTree = SOURCE_ROOT; };
+		FF9DFA5D2CE242F89ECD96F9 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/unix-config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "unix-config.h"; path = "3rdparty/sndlib/unix-config.h"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0524161C019142DE9206A0EB /* Fft */ = {
+			isa = PBXGroup;
+			children = (
+				EB0D361A5E2D4E5BBBE991EA /* Source Files */,
+				0C46276F86024B2582A42A3B /* Header Files */,
+				BA26FFD3C04449A7B22629F1 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/Fft/CMakeLists.txt */,
+			);
+			name = Fft;
+			sourceTree = "<group>";
+		};
+		075177A71FDB4040AF33BCC2 = {
+			isa = PBXGroup;
+			children = (
+				1823513A5F25430B870A7121 /* ALL_BUILD */,
+				B45AABCD2FDA44E4896BA8FD /* ZERO_CHECK */,
+				4845357D0F5841D89C56C33B /* MUSI6106Exec */,
+				8D23762A923F4C7AB93D73F4 /* AudioFileIO */,
+				DD33B2A9F8474EB19E866F8B /* sndlib */,
+				9F47A95BADA746AF861BA37B /* CombFilter */,
+				0524161C019142DE9206A0EB /* Fft */,
+				EBC493DFAD6B453A88D5AD63 /* Vibrato */,
+				D372E02AB1764130828B5A1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C46276F86024B2582A42A3B /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				F857477F556B41EE8427D8FB /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdParty/Fft/rvfft.h */,
+				57131FDFC16E4C8F954F59D8 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/AudioFileIf.h */,
+				B4B343C078DA41CF82A36875 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/CombFilter.h */,
+				AD23CAF32CF446F6BE98D4B3 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/CombFilterIf.h */,
+				936C9D4461274308850899D7 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Fft.h */,
+				873C6CF1557B42508128EFD9 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Lfo.h */,
+				F0EBEA4B3D034D5DB7401752 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/RingBuffer.h */,
+				2275A795145845AA92A9779D /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Synthesis.h */,
+				3AC2AA125E544796AA03E61B /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Util.h */,
+				0129922BF79544D79CDB2DB2 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Vector.h */,
+				4EA40A002C224F778A98B9D5 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Vibrato.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		1823513A5F25430B870A7121 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				B8665F3B67E04586B981B3C7 /* CMake Rules */,
+				2F9C3EBDA1AA4332A1D77327 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		1AAAA1FA5295415286818C9C /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFC82263ACD349B2A62C4D01 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/AudioFileIf.h */,
+				7C20D3B14CE04DC69676EF39 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/CombFilter.h */,
+				814AEE2AFF8A47278FA8022D /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/CombFilterIf.h */,
+				B34E3330A6E54F47A86771EA /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Fft.h */,
+				31A111A0D97A4F1F97D9C467 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Lfo.h */,
+				AA7B5AF760024A2E96051BB3 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/RingBuffer.h */,
+				A65F6B7C1DB84EEC910D8A53 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Synthesis.h */,
+				BC2F10D52B5C474BA375DA48 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Util.h */,
+				C8AF86D52178400EAAF92144 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Vector.h */,
+				735BB3B4159A4BD480AB5920 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Vibrato.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		1ACE37D0F41243DD8973CE50 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D237B04C4B60409CB0DE2AB1 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/audio.c */,
+				A9AD817232BC41B99EE9567D /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/clm.c */,
+				7AB214ED8C0244E9B3460173 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/clm2xen.c */,
+				E979D1F010094864922CEAF7 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/headers.c */,
+				7EC1D40275B14CEF8884CC61 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/io.c */,
+				29C44A392EA44EE487BBAFCE /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/s7.c */,
+				36AF4A0C76B44B8B8FB2778F /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/sndlib2xen.c */,
+				4F7DBA8110A041E7866A04E9 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/sound.c */,
+				D30DD138A13643CC8DCFC5B8 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/vct.c */,
+				929B660C8A2F4059AA618006 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/xen.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		1B95AB048D19478DAC674462 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF21C1C834BB47F18AAE3522 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/AudioFileIf.h */,
+				37E8A9138C4C42A68A6C178F /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/CombFilter.h */,
+				10953670241C44D1BE057B81 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/CombFilterIf.h */,
+				68EC7F57413C4133A56B6675 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Fft.h */,
+				C7BBA89F92994CEE88EA5568 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Lfo.h */,
+				5FD9FC667EB74F7BA0052D60 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/RingBuffer.h */,
+				AB728D1989DB472ABB47004B /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Synthesis.h */,
+				BB1837AF156E4B5AB7F16535 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Util.h */,
+				684412E9F0EB4EE5B874ED8F /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Vector.h */,
+				47091EE7D22E4165A3132C60 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Vibrato.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		375CEDA993F7440E8B5ECC58 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				40A244B4712E4FEF826A872B /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/_sndlib.h */,
+				DCC52C89867A41DD9A4877D5 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/clm-strings.h */,
+				8F38F2A35A4347A49C39627C /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/clm.h */,
+				C8EE9EB3074343D8B05BF7EF /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/clm2xen.h */,
+				49B2064F67BE4C72BE8B754A /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/mus-config.h */,
+				EEC7D484D6CC4B5BADBCFD56 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/s7.h */,
+				CCBDD063A2774C1992FAECF4 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/sndlib-strings.h */,
+				4DEF5BADA25745E5A231B901 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/sndlib.h */,
+				F2326FCD2C124FC78C5B20CC /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/sndlib2xen.h */,
+				FF9DFA5D2CE242F89ECD96F9 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/unix-config.h */,
+				F808FC749AE24E5D9D3EF34B /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/vct.h */,
+				CD899DEB626C4CFFB5BFE030 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/xen.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		4845357D0F5841D89C56C33B /* MUSI6106Exec */ = {
+			isa = PBXGroup;
+			children = (
+				CFA54CC02B0F4629B3A999BE /* Source Files */,
+				ED5D10C144864A7EBC09B17F /* Header Files */,
+				4423BA3255CD499EAD2DE78C /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/MUSI6106Exec/CMakeLists.txt */,
+			);
+			name = MUSI6106Exec;
+			sourceTree = "<group>";
+		};
+		5720064A1509483F8547F4CC /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				309DF20C36AD41558CA17840 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/CombFilter/CombFilter.cpp */,
+				DADEFEBAC9184D719C2E3200 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/CombFilter/CombFilterIf.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8D23762A923F4C7AB93D73F4 /* AudioFileIO */ = {
+			isa = PBXGroup;
+			children = (
+				A56594C618AC431F84A1E16E /* Source Files */,
+				A5DB5163A779495AB99324AE /* Header Files */,
+				8DE27927310B4049A396D2AE /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/AudioFileIO/CMakeLists.txt */,
+			);
+			name = AudioFileIO;
+			sourceTree = "<group>";
+		};
+		959AAB471ED64A48A3158DDB /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				24B7ADD9A512485F9BC2E78F /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/Vibrato/Vibrato.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		9F47A95BADA746AF861BA37B /* CombFilter */ = {
+			isa = PBXGroup;
+			children = (
+				5720064A1509483F8547F4CC /* Source Files */,
+				1B95AB048D19478DAC674462 /* Header Files */,
+				C744321FC8D84BB5B9327962 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/CombFilter/CMakeLists.txt */,
+			);
+			name = CombFilter;
+			sourceTree = "<group>";
+		};
+		A56594C618AC431F84A1E16E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EBD8BFBFE204AA3B181D094 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/AudioFileIO/AudioFile.cpp */,
+				721E4A43A8774668BF3D0034 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/AudioFileIO/AudioFileIf.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A5DB5163A779495AB99324AE /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				E34270933F4E4081A2D27DDC /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/AudioFileIO/AudioFile.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		B45AABCD2FDA44E4896BA8FD /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				D4AD1CBE738343C4AAEF3F3E /* CMake Rules */,
+				4C0E4EF375B94212B3E87336 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		B8665F3B67E04586B981B3C7 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		CFA54CC02B0F4629B3A999BE /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				21E6AE2D233F4DD5AD575D8E /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/MUSI6106Exec/MUSI6106Exec.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		D372E02AB1764130828B5A1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F6ACB3AAFFF4438B535319B /* MUSI6106Exec */,
+				D1D7E140ED5047A9BABA98C3 /* AudioFileIO */,
+				8FAC14A326974D8683A2CBDD /* sndlib */,
+				5D0A4F555C724FFAAE6BEC55 /* CombFilter */,
+				FC9C88221F554204B2B837F5 /* Fft */,
+				F2610AA993AB416CAC932A4E /* Vibrato */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4AD1CBE738343C4AAEF3F3E /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		DD33B2A9F8474EB19E866F8B /* sndlib */ = {
+			isa = PBXGroup;
+			children = (
+				1ACE37D0F41243DD8973CE50 /* Source Files */,
+				375CEDA993F7440E8B5ECC58 /* Header Files */,
+				6354A0113CBB4894A66C2A4C /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/CMakeLists.txt */,
+			);
+			name = sndlib;
+			sourceTree = "<group>";
+		};
+		EB0D361A5E2D4E5BBBE991EA /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A698F03B94943F1B8B96138 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdParty/Fft/rvfft.cpp */,
+				8B90EE2EC3CD4B619C88D0FA /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/Fft/Fft.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		EBC493DFAD6B453A88D5AD63 /* Vibrato */ = {
+			isa = PBXGroup;
+			children = (
+				959AAB471ED64A48A3158DDB /* Source Files */,
+				1AAAA1FA5295415286818C9C /* Header Files */,
+				69AEF993F4A74968A81017E3 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/Vibrato/CMakeLists.txt */,
+			);
+			name = Vibrato;
+			sourceTree = "<group>";
+		};
+		ED5D10C144864A7EBC09B17F /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				98DD281F7D03461C96F8C0A1 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/AudioFileIf.h */,
+				A9794F68370A4C1CBF3E554C /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/CombFilter.h */,
+				42C52460655B4CE3BEC69E75 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/CombFilterIf.h */,
+				A46C21D3616A4727BB766F0D /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Fft.h */,
+				54593E93791E4193BD55EBF3 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Lfo.h */,
+				FDB9C8134B714F73AFF19322 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/RingBuffer.h */,
+				59AF322BE38D40A6B1AE4216 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Synthesis.h */,
+				0C9034CDD53B46B99ED20BA1 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Util.h */,
+				91486AB5B1E240A79536BBCC /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Vector.h */,
+				984B3CE9C62043AC873E8078 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc/Vibrato.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A178DC732474852A72C77F5 /* CombFilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 509D72FE5BDB4FBB91F37557 /* Build configuration list for PBXNativeTarget "CombFilter" */;
+			buildPhases = (
+				04DD5A32FA8B4F03860C8164 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B72C2F9D165A4FE3A011969D /* PBXTargetDependency */,
+			);
+			name = CombFilter;
+			productName = CombFilter;
+			productReference = 5D0A4F555C724FFAAE6BEC55 /* CombFilter */;
+			productType = "com.apple.product-type.library.static";
+		};
+		514E1B4B53A14C4AB4CB7B9D /* MUSI6106Exec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5449CD7BE69B4F35A41D919C /* Build configuration list for PBXNativeTarget "MUSI6106Exec" */;
+			buildPhases = (
+				4B00878482A647ECACC43FB5 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9DB0C59005746648332B9E0 /* PBXTargetDependency */,
+				5EDA7EF75573490595227D25 /* PBXTargetDependency */,
+				E4F9DD4216C64661B3EF95CD /* PBXTargetDependency */,
+				D292F589FA574A859C174CAB /* PBXTargetDependency */,
+				FF2AEE8D4C484AF0AD447808 /* PBXTargetDependency */,
+				183CE6A0CACA499DBF744E94 /* PBXTargetDependency */,
+			);
+			name = MUSI6106Exec;
+			productName = MUSI6106Exec;
+			productReference = 0F6ACB3AAFFF4438B535319B /* MUSI6106Exec */;
+			productType = "com.apple.product-type.tool";
+		};
+		6E494252D0A74123BC9B7034 /* AudioFileIO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C6CC50B174641609472C2B0 /* Build configuration list for PBXNativeTarget "AudioFileIO" */;
+			buildPhases = (
+				BDF34485A0814779AC7838FB /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AEAEFCAE9B940E5B39187F1 /* PBXTargetDependency */,
+				BA53311C28604913B3C141DF /* PBXTargetDependency */,
+			);
+			name = AudioFileIO;
+			productName = AudioFileIO;
+			productReference = D1D7E140ED5047A9BABA98C3 /* AudioFileIO */;
+			productType = "com.apple.product-type.library.static";
+		};
+		796DB92797EB4E0E961EDBFE /* Vibrato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBB1B1A529C4C148ECBDD5E /* Build configuration list for PBXNativeTarget "Vibrato" */;
+			buildPhases = (
+				C896BB32C765484AA38A7975 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20BB9ABE692B433E90DCC6C8 /* PBXTargetDependency */,
+			);
+			name = Vibrato;
+			productName = Vibrato;
+			productReference = F2610AA993AB416CAC932A4E /* Vibrato */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BFD25A844A114561BE3CD5B1 /* Fft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3723489B73340EABD1F46CB /* Build configuration list for PBXNativeTarget "Fft" */;
+			buildPhases = (
+				DAF3264F3C854072A8F85127 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0466265A7814414D8F8CBF42 /* PBXTargetDependency */,
+			);
+			name = Fft;
+			productName = Fft;
+			productReference = FC9C88221F554204B2B837F5 /* Fft */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FC8A94A93E78433BA8CE191E /* sndlib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D09E9B48CAC4A63A87346B1 /* Build configuration list for PBXNativeTarget "sndlib" */;
+			buildPhases = (
+				0168AE573C02413ABE062988 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFF0DF6C33C140EF8154887E /* PBXTargetDependency */,
+			);
+			name = sndlib;
+			productName = sndlib;
+			productReference = 8FAC14A326974D8683A2CBDD /* sndlib */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2415C4EA22A43BB99853143 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = 58ED06B55A7A45168253A2BE /* Build configuration list for PBXProject "MUSI6106" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				2CF5C218F34A412DA3EB3565 /* Debug */,
+				491A543F770B4A8289E9E213 /* Release */,
+				2CAE92E8F03348BE8DA59028 /* MinSizeRel */,
+				FAA4AC6FFC97439BA1BDC60F /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 075177A71FDB4040AF33BCC2;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				13B03B8DD6D24DB48C5D664A /* ALL_BUILD */,
+				335F5B145E9B46A986512641 /* ZERO_CHECK */,
+				514E1B4B53A14C4AB4CB7B9D /* MUSI6106Exec */,
+				6E494252D0A74123BC9B7034 /* AudioFileIO */,
+				FC8A94A93E78433BA8CE191E /* sndlib */,
+				2A178DC732474852A72C77F5 /* CombFilter */,
+				BFD25A844A114561BE3CD5B1 /* Fft */,
+				796DB92797EB4E0E961EDBFE /* Vibrato */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F4D572E38914AA8A8C3C213 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/yonglianghe/OneDrive\\ -\\ Georgia\\ Institute\\ of\\ Technology/GT/Spring\\ 2018/MUSI-8903-Audio\\ Software\\ Engineering/Repo/Vibrato\\ implementation/build -f /Users/yonglianghe/OneDrive\\ -\\ Georgia\\ Institute\\ of\\ Technology/GT/Spring\\ 2018/MUSI-8903-Audio\\ Software\\ Engineering/Repo/Vibrato\\ implementation/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		8D6CEC477A184708AC169D70 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C152DB3F517D4A458C28E88F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		FF2AA33DF566424B8B0489AA /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/yonglianghe/OneDrive\\ -\\ Georgia\\ Institute\\ of\\ Technology/GT/Spring\\ 2018/MUSI-8903-Audio\\ Software\\ Engineering/Repo/Vibrato\\ implementation/build -f /Users/yonglianghe/OneDrive\\ -\\ Georgia\\ Institute\\ of\\ Technology/GT/Spring\\ 2018/MUSI-8903-Audio\\ Software\\ Engineering/Repo/Vibrato\\ implementation/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0168AE573C02413ABE062988 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C31B9CE5D243A1A659B4E8 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/audio.c */,
+				BE9DA40314ED453AAF24E8E2 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/clm.c */,
+				A895654BD7E04246BA014EE0 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/clm2xen.c */,
+				B1196810B7EF49F08AC7AD68 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/headers.c */,
+				4FD70BB5E534404892ED9541 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/io.c */,
+				CBF59119C0874A56B83DF312 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/s7.c */,
+				E96CBEB284ED4E0F9778F755 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/sndlib2xen.c */,
+				AB078112034F4C5BB274D2C2 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/sound.c */,
+				7809648B314F443EA2FC0A11 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/vct.c */,
+				F99A95B6E9034C16AD51E797 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib/xen.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DD5A32FA8B4F03860C8164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C2BA5712554D43A7012747 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/CombFilter/CombFilter.cpp */,
+				14A356C1F2D44D7CABFBC50E /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/CombFilter/CombFilterIf.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B00878482A647ECACC43FB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B914D9AC79C49BF9EF71918 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/MUSI6106Exec/MUSI6106Exec.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF34485A0814779AC7838FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC85B7092964B35B48731D4 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/AudioFileIO/AudioFile.cpp */,
+				4A0A4AFBE421483AAB9BFA49 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/AudioFileIO/AudioFileIf.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C896BB32C765484AA38A7975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C194557742DC477C97472529 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/Vibrato/Vibrato.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF3264F3C854072A8F85127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				240465BB416B44548F0E6FDD /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdParty/Fft/rvfft.cpp */,
+				E9B0CAEEBAD24261AC623D02 /* /Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/Fft/Fft.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0466265A7814414D8F8CBF42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 335F5B145E9B46A986512641 /* ZERO_CHECK */;
+			targetProxy = 92C4600FF6E14CA08E45D2A1 /* PBXContainerItemProxy */;
+		};
+		183CE6A0CACA499DBF744E94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 335F5B145E9B46A986512641 /* ZERO_CHECK */;
+			targetProxy = C911017B9A9847678FBF691B /* PBXContainerItemProxy */;
+		};
+		20BB9ABE692B433E90DCC6C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 335F5B145E9B46A986512641 /* ZERO_CHECK */;
+			targetProxy = C52F71FC25A24EB4BE7F2FED /* PBXContainerItemProxy */;
+		};
+		24CFE9B20F3E47AE90474346 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 514E1B4B53A14C4AB4CB7B9D /* MUSI6106Exec */;
+			targetProxy = 763FF7BF8B0246568E1DC299 /* PBXContainerItemProxy */;
+		};
+		433141F049804023A60A5B88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC8A94A93E78433BA8CE191E /* sndlib */;
+			targetProxy = AD5BE08AC6664FDFA6A56685 /* PBXContainerItemProxy */;
+		};
+		4AEAEFCAE9B940E5B39187F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC8A94A93E78433BA8CE191E /* sndlib */;
+			targetProxy = 0C7368A786FC42C8AF3E3817 /* PBXContainerItemProxy */;
+		};
+		5EDA7EF75573490595227D25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC8A94A93E78433BA8CE191E /* sndlib */;
+			targetProxy = B80430110E6640EA81DE0EFC /* PBXContainerItemProxy */;
+		};
+		97C17C850E764FFDA7837043 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFD25A844A114561BE3CD5B1 /* Fft */;
+			targetProxy = 223374CA7A2F4504B700FFB4 /* PBXContainerItemProxy */;
+		};
+		B01F83D5AB5A4B51B02B9389 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 796DB92797EB4E0E961EDBFE /* Vibrato */;
+			targetProxy = 1F72C9B161764A099C4FC792 /* PBXContainerItemProxy */;
+		};
+		B72C2F9D165A4FE3A011969D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 335F5B145E9B46A986512641 /* ZERO_CHECK */;
+			targetProxy = FDACAED751A44A6A85B42B22 /* PBXContainerItemProxy */;
+		};
+		BA53311C28604913B3C141DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 335F5B145E9B46A986512641 /* ZERO_CHECK */;
+			targetProxy = AC40361092F8484C847DDF3A /* PBXContainerItemProxy */;
+		};
+		C39047BFC1EC4FF1A68677EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 335F5B145E9B46A986512641 /* ZERO_CHECK */;
+			targetProxy = AB7F2532E00A423EA0927E92 /* PBXContainerItemProxy */;
+		};
+		CAEE301E668942A980FAABA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A178DC732474852A72C77F5 /* CombFilter */;
+			targetProxy = 929620166D4345198A678946 /* PBXContainerItemProxy */;
+		};
+		D292F589FA574A859C174CAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFD25A844A114561BE3CD5B1 /* Fft */;
+			targetProxy = C840E4DD3F464739AA8A9578 /* PBXContainerItemProxy */;
+		};
+		D9DB0C59005746648332B9E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E494252D0A74123BC9B7034 /* AudioFileIO */;
+			targetProxy = DC73690D933F4902AEDABCFE /* PBXContainerItemProxy */;
+		};
+		E49D3DD151804F2B880C0A66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E494252D0A74123BC9B7034 /* AudioFileIO */;
+			targetProxy = 4D006A9AB0F54E7EB939F24B /* PBXContainerItemProxy */;
+		};
+		E4F9DD4216C64661B3EF95CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A178DC732474852A72C77F5 /* CombFilter */;
+			targetProxy = 324E01408ABC41E4A06CFD15 /* PBXContainerItemProxy */;
+		};
+		EFF0DF6C33C140EF8154887E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 335F5B145E9B46A986512641 /* ZERO_CHECK */;
+			targetProxy = D6376057EE6C48C7A66A17A0 /* PBXContainerItemProxy */;
+		};
+		FF2AEE8D4C484AF0AD447808 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 796DB92797EB4E0E961EDBFE /* Vibrato */;
+			targetProxy = DFDFDD1C34F54728892D6404 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04099F226EE94270BE5EE790 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/inc\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CombFilter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/CombFilter";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		04E2F02290494E749C2BF3F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/Fft\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/inc\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Fft;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/Fft";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		0681ECC3C83A4DCC870E0532 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/relwithdebinfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/Fft\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/inc\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Fft;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/Fft";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		088DC750936341698264F96A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/Fft\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/inc\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Fft;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/Fft";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0FDA73ED047443F7A9F379BF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -w  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sndlib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/AudioFileIO/sndlib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		100CA1E341BA45DFA6042C69 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		133490789B48431AB29A3059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -w  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sndlib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/AudioFileIO/sndlib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		1B5B4C0396BC49B88900C703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = AudioFileIO;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/AudioFileIO";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		220527CC4BDB4EDD8DE37FD2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		22B9E6D010484EE390ABF6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/build";
+			};
+			name = Release;
+		};
+		268DBCA8A42F41AE9B391A7F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2C270C200F1946FFB522BFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/build";
+			};
+			name = Debug;
+		};
+		3133F50AA473407BB12769FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/bin/debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/inc\"");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  \"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/debug/libFft.a\" \"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/debug/libCombFilter.a\" \"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/debug/libVibrato.a\" \"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/debug/libAudioFileIO.a\" \"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/debug/libsndlib.a\"";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MUSI6106Exec;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/MUSI6106Exec";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		379E1C3C000241B282C1D3D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/Fft\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/inc\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Fft;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/Fft";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		387A0C0AE4794F72A7BF274D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/relwithdebinfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = AudioFileIO;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/AudioFileIO";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3AB087BA84184FD8B82F063C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/inc\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CombFilter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/CombFilter";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		42209137C8FA4FF0805D6369 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		4898AFBE51C3400C859219C2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/inc\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Vibrato;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/Vibrato";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4BD999C06EF14E25B7AFEA90 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = AudioFileIO;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/AudioFileIO";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4FDA360447994876A68B76C9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6576ABC0B155411783EDC0FD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/relwithdebinfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/inc\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Vibrato;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/Vibrato";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		67D73E2502FC40E3ACD4CAAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = AudioFileIO;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/AudioFileIO";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		692F1EBE01AC4B3B8959E09C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/bin/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/inc\"");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  \"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/MinSizeRel/libFft.a\" \"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/MinSizeRel/libCombFilter.a\" \"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/MinSizeRel/libVibrato.a\" \"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/MinSizeRel/libAudioFileIO.a\" \"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/MinSizeRel/libsndlib.a\"";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MUSI6106Exec;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/MUSI6106Exec";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		698270DDD656435FA6F8E714 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/build";
+			};
+			name = MinSizeRel;
+		};
+		76785E5B67324E65A818C9D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		98ADD84CB28B4E6EAEF1346D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/inc\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Vibrato;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/Vibrato";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		A605828546F445AE9B02D699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		A81FF4CE48444CE0B63DC317 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/bin/relwithdebinfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/inc\"");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  \"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/relwithdebinfo/libFft.a\" \"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/relwithdebinfo/libCombFilter.a\" \"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/relwithdebinfo/libVibrato.a\" \"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/relwithdebinfo/libAudioFileIO.a\" \"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/relwithdebinfo/libsndlib.a\"";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MUSI6106Exec;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/MUSI6106Exec";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AA5D9A6A1B404A079F633CB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		AAC8F51046FD400985B80D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		BCDC0C017EC042328D2BD74B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/inc\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CombFilter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/CombFilter";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C2A4E6143CD7460EB5E62512 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/relwithdebinfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG -w  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sndlib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/AudioFileIO/sndlib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C2D72A5B5EF84CABA60CC217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/inc\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Vibrato;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/Vibrato";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C4E225118F7D462498871E28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/bin/release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/inc\"");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  \"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/release/libFft.a\" \"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/release/libCombFilter.a\" \"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/release/libVibrato.a\" \"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/release/libAudioFileIO.a\" \"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/release/libsndlib.a\"";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MUSI6106Exec;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/MUSI6106Exec";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D6EA4914629845E7AFEA5C95 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/relwithdebinfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/src/inc\"","\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/inc\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CombFilter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/CombFilter";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DBE10EBA2E0F41EC8BDC9185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/lib/release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/3rdparty/sndlib\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -w  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sndlib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yonglianghe/OneDrive - Georgia Institute of Technology/GT/Spring 2018/MUSI-8903-Audio Software Engineering/Repo/Vibrato implementation/build/AudioFileIO/sndlib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18413F61D8D04A29A4C03F56 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5D9A6A1B404A079F633CB9 /* Debug */,
+				AAC8F51046FD400985B80D68 /* Release */,
+				268DBCA8A42F41AE9B391A7F /* MinSizeRel */,
+				100CA1E341BA45DFA6042C69 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2C6CC50B174641609472C2B0 /* Build configuration list for PBXNativeTarget "AudioFileIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B5B4C0396BC49B88900C703 /* Debug */,
+				67D73E2502FC40E3ACD4CAAE /* Release */,
+				4BD999C06EF14E25B7AFEA90 /* MinSizeRel */,
+				387A0C0AE4794F72A7BF274D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4D09E9B48CAC4A63A87346B1 /* Build configuration list for PBXNativeTarget "sndlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133490789B48431AB29A3059 /* Debug */,
+				DBE10EBA2E0F41EC8BDC9185 /* Release */,
+				0FDA73ED047443F7A9F379BF /* MinSizeRel */,
+				C2A4E6143CD7460EB5E62512 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		509D72FE5BDB4FBB91F37557 /* Build configuration list for PBXNativeTarget "CombFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB087BA84184FD8B82F063C /* Debug */,
+				BCDC0C017EC042328D2BD74B /* Release */,
+				04099F226EE94270BE5EE790 /* MinSizeRel */,
+				D6EA4914629845E7AFEA5C95 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5449CD7BE69B4F35A41D919C /* Build configuration list for PBXNativeTarget "MUSI6106Exec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3133F50AA473407BB12769FC /* Debug */,
+				C4E225118F7D462498871E28 /* Release */,
+				692F1EBE01AC4B3B8959E09C /* MinSizeRel */,
+				A81FF4CE48444CE0B63DC317 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		58ED06B55A7A45168253A2BE /* Build configuration list for PBXProject "MUSI6106" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C270C200F1946FFB522BFBD /* Debug */,
+				22B9E6D010484EE390ABF6AC /* Release */,
+				698270DDD656435FA6F8E714 /* MinSizeRel */,
+				42209137C8FA4FF0805D6369 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6A59E34DDB1348148A28D56E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A605828546F445AE9B02D699 /* Debug */,
+				76785E5B67324E65A818C9D6 /* Release */,
+				220527CC4BDB4EDD8DE37FD2 /* MinSizeRel */,
+				4FDA360447994876A68B76C9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B3723489B73340EABD1F46CB /* Build configuration list for PBXNativeTarget "Fft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				379E1C3C000241B282C1D3D6 /* Debug */,
+				04E2F02290494E749C2BF3F5 /* Release */,
+				088DC750936341698264F96A /* MinSizeRel */,
+				0681ECC3C83A4DCC870E0532 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CEBB1B1A529C4C148ECBDD5E /* Build configuration list for PBXNativeTarget "Vibrato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2D72A5B5EF84CABA60CC217 /* Debug */,
+				98ADD84CB28B4E6EAEF1346D /* Release */,
+				4898AFBE51C3400C859219C2 /* MinSizeRel */,
+				6576ABC0B155411783EDC0FD /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2415C4EA22A43BB99853143 /* Project object */;
+}
